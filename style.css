@@ -161,3 +161,18 @@
 
 }
 /* /esercizio 9 */
+
+/* esercizio 10 */
+.ex-10-icon {
+  animation-name: rotation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation {
+
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+
+}
+/* /esercizio 10 */
