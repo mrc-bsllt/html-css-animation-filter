@@ -121,3 +121,12 @@
   filter: grayscale(1);
 }
 /* /esercizio 6 */
+
+/* esercizio 7 */
+.ex-7-img {
+  transition: filter 0.5s linear 0s;
+}
+.ex-7-img:hover {
+  filter: sepia(1) grayscale(0.4);
+}
+/* /esercizio 7 */
