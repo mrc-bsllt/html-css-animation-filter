@@ -103,3 +103,15 @@
   opacity: 0;
 }
 /* /esercizio 4 */
+
+/* esercizio 5 */
+.ex-5-square {
+  transition: transform 1s ease-in-out 0s;
+}
+.ex-5-square:hover {
+  transform: scale(2);
+}
+.ex-5-square:active {
+  transform: scale(0.5);
+}
+/* /esercizio 5 */
