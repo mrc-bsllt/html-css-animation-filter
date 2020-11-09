@@ -130,3 +130,13 @@
   filter: sepia(1) grayscale(0.4);
 }
 /* /esercizio 7 */
+
+/* esercizio 8 */
+.ex-8-img {
+  transition: filter 0.8s linear 0s, border-radius 0.8s linear 0s;
+}
+.ex-8-img:hover {
+  filter: contrast(150%) sepia(0.8);
+  border-radius: 40px;
+}
+/* /esercizio 8 */
