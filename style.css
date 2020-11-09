@@ -29,7 +29,7 @@
 }
 
 .ex-9-img {
-    margin: 50px 100px;
+    /* margin: 50px 100px; */
     width: 400px;
 }
 .ex-10-icon {
@@ -140,3 +140,24 @@
   border-radius: 40px;
 }
 /* /esercizio 8 */
+
+/* esercizio 9 */
+.ex-9-img {
+  animation-name: margin-move;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transition: filter 0.8s linear 0s, border-radius 0.8s linear 0s, transform 0.8s linear 0s;
+}
+.ex-9-img:hover {
+  filter: contrast(150%) sepia(0.8);
+  border-radius: 40px;
+  transform: scale(1.5);
+}
+@keyframes margin-move {
+
+  from {margin: 0;}
+  to {margin: 50px 100px;}
+
+}
+/* /esercizio 9 */
