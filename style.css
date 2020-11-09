@@ -76,3 +76,12 @@
   background-color: red;
 }
 /* /esercizio 1 */
+
+/* esercizio 2 */
+.ex-2-square {
+  transition: width 1.2s linear 0s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
+/* /esercizio 2 */
