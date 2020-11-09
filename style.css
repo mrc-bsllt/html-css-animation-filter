@@ -190,3 +190,29 @@
   to {transform: rotate(0deg);}
 }
 /* /esercizio 11 */
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: animation-12-top;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: animation-12-bottom;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+@keyframes animation-12-top {
+
+  from {left: 10%;}
+  50% {left: 65%;}
+  to {left: 10%;}
+}
+@keyframes animation-12-bottom {
+
+  from {right: 20%;}
+  50% {right: 65%;}
+  to {right: 20%;}
+
+}
+/* /esercizio 12 */
