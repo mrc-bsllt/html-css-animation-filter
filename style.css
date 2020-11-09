@@ -55,7 +55,7 @@
     position: absolute;
     top: -10px;
     left: 10%;
-    background: red;
+    background: #f5f5f5;;
     width: 60px;
     height: 20px;
 }
@@ -63,7 +63,7 @@
     position: absolute;
     bottom: -10px;
     right: 20%;
-    background: green;
+    background: #f5f5f5;;
     width: 60px;
     height: 20px;
 }
@@ -248,5 +248,4 @@
   to% {right: 20%; bottom: -10px;}
 
 }
-
 /* /esercizio 13 */
