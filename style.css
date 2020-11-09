@@ -55,7 +55,7 @@
     position: absolute;
     top: -10px;
     left: 10%;
-    background: #f5f5f5;
+    background: red;
     width: 60px;
     height: 20px;
 }
@@ -63,7 +63,7 @@
     position: absolute;
     bottom: -10px;
     right: 20%;
-    background: #f5f5f5;
+    background: green;
     width: 60px;
     height: 20px;
 }
@@ -216,3 +216,37 @@
 
 }
 /* /esercizio 12 */
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: circle-13-top;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: circle-13-bottom;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes circle-13-top {
+
+  from {left: 10%; top: -10px}
+  20% {left: calc(90% - 10px); top: -10px;}
+  40% {left: calc(90% - 10px); top: calc(100% - 10px);}
+  60% {left: -30px; top: calc(100% - 10px);}
+  80% {left: -30px; top: -10px;}
+  to% {left: 10%; top: -10px;}
+
+}
+@keyframes circle-13-bottom {
+
+  from {right: 20%; bottom: -10px}
+  20% {right: calc(100% - 30px); bottom: -10px;}
+  40% {right: calc(100% - 30px); bottom: calc(100% - 10px);}
+  60% {right: -30px; bottom: calc(100% - 10px);}
+  80% {right: -30px; bottom: -10px;}
+  to% {right: 20%; bottom: -10px;}
+
+}
+
+/* /esercizio 13 */
